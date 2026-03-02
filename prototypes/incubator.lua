@@ -58,7 +58,7 @@ data:extend({
         energy_source = {
             type = "electric",
             usage_priority = "secondary-input",
-            emissions_per_minute = config.incubator.emissions_per_minute
+            emissions_per_minute = {pollution = config.incubator.emissions_per_minute}
         },
         open_sound = sounds.machine_open,
         close_sound = sounds.machine_close,
