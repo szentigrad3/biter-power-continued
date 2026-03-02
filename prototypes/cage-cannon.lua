@@ -238,7 +238,7 @@ data:extend{
                 priority = "very-low",
                 width = 238,
                 height = 170,
-                direction_count = 256,
+                direction_count = 240,
                 line_length = 4,
                 lines_per_file = 4,                
                 draw_as_shadow = true,
@@ -248,6 +248,7 @@ data:extend{
                 stripes = create_stripes{
                     -- Technically the in these shadow sprites the barrel is too long. 
                     -- Doubt anyone will notice though, so will keep it like this for now.
+                    -- Note: Factorio 2.0 base only ships shadow files 1-15 (15*4*4=240 frames).
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-1.png",
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-2.png",
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-3.png",
@@ -262,8 +263,7 @@ data:extend{
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-12.png",
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-13.png",
                     "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-14.png",
-                    "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-15.png",
-                    "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-16.png"
+                    "__base__/graphics/entity/artillery-wagon/artillery-wagon-cannon-base-shadow-15.png"
                 }
             },
         }},
