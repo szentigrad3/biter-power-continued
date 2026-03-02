@@ -42,6 +42,7 @@ config.revitalization.results = function (tier)
     if probability > 0.99 then error("Invalid probability: "..probability) end
     return {
         {
+            type = "item",
             name = "bp-caged-",
             probability = probability,
             amount = 1,
