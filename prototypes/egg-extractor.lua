@@ -73,7 +73,7 @@ data:extend({
         energy_source = {
           type = "electric",
           usage_priority = "secondary-input",
-          emissions_per_minute = config.egg_extractor.emissions_per_minute
+          emissions_per_minute = {pollution = config.egg_extractor.emissions_per_minute}
         },
         energy_usage = "90kW",
         resource_searching_radius = 0.49,

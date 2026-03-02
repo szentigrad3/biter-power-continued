@@ -174,7 +174,7 @@ data:extend({
       effectivity = 1,
       fuel_inventory_size = 1,
       burnt_inventory_size = 1,
-      emissions_per_minute = config.generator.emissions_per_minute,
+      emissions_per_minute = {pollution = config.generator.emissions_per_minute},
     },
     energy_source = {
       type = "electric",
