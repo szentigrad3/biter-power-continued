@@ -174,7 +174,7 @@ data:extend({
         results = {{type="item", name="bp-revitalizer", amount=1}}
     },
     {
-        type = "furnace",
+        type = "assembling-machine",
         name = "bp-revitalizer",
         localised_description = {"",
             {"entity-description.bp-revitalizer"},
@@ -188,8 +188,6 @@ data:extend({
         is_military_target = true, -- So that biters attack it!
         corpse = "lab-remnants",
         dying_explosion = "lab-explosion",
-        result_inventory_size = 1,
-        source_inventory_size = 2, -- 2 slots: tired biter + optional raw fish
         crafting_categories = revitalizer_crafting_categories,
         resistances = {
             {
